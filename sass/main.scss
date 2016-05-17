@@ -1,0 +1,31 @@
+@import 'variables';
+
+html{
+  background: $primary;
+}
+
+.slide_1{
+  font-family: $font;
+  font-size: 3.75em;
+  color: $text_color;
+}
+
+.column{
+  background: green;
+}
+h1.slide_1.column{
+  background: red;
+}
+// @media (max-width: 960px) {
+//   h1.slide_1.column{
+//     background: yellow;
+//     font-size: 2em;
+//   }
+// }
+//
+// @media (max-width: 600px) {
+//   h1.slide_1.column{
+//     background: yellow;
+//     font-size: 2em;
+//   }
+// }

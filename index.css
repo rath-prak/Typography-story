@@ -1,3 +1,14 @@
-main {
-  text-align: center;
-}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+html {
+  background: #3b5998; }
+
+.slide_1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.75em;
+  color: #fff; }
+
+.column {
+  background: green; }
+
+h1.slide_1.column {
+  background: red; }

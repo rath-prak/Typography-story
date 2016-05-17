@@ -4,12 +4,34 @@
     <meta charset="utf-8" />
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.css" rel="stylesheet" />
+    <link href="grid.css" rel="stylesheet" />
     <link href="index.css" rel="stylesheet" />
+
   </head>
   <body>
-    <main>
-      <h1></h1>
-    </main>
-    <script src="bundle.js"></script>
+    <div id="fullpage">
+      <div class="section" id="page_1">
+        <main class="container ui four column centered grid">
+        <h1 class="slide_1 column">Helvetica is the sweatpants of typefaces</h1>
+        </main>
+      </div>
+
+      <div class="section" id="page_2">
+        <main class="container ui four column centered grid">
+        <h1 class="slide_1 column">Each section will be defined with an element containing</h1>
+        </main>
+      </div>
+
+    </div>  <!-- end of fullPage -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.js"></script>
+      <script src="bundle.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('#fullpage').fullpage();
+      });
+      </script>
+
   </body>
 </html>
